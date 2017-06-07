@@ -4,6 +4,7 @@ body,html{
   margin:0;
   padding: 0;
 }
+/* ESTILOS index.html */
 .fondo{
   width: 100%;
   height: 100%;
@@ -16,4 +17,32 @@ body,html{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* ESTILOS home.html */
+.fondo-home{
+  background-image: url("../assets/video/giphy.gif");
+  background-size: cover;
+  background-position: left;
+}
+.flex-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn.btn-lg{
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-left: 1em;
+}
+.btn.btn-primary{
+  background: linear-gradient(-90deg,#FF00BF , #A901DB );
+}
+.botones{
+  margin: 10%;
+}
+.margin-logo{
+  margin-top: 7%;
 }
